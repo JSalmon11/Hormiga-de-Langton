@@ -1,0 +1,8 @@
+Filas=51;
+Columnas=111;
+Regla de colores=r,l;
+Orientacion=N;
+Fila inicial de la hormiga=26;
+Columna inicial de la hormiga=51;
+Numero de movimientos de la hormiga=12000;
+Ruta de los procesos=F:\\JORGE\\Google Drive\\Mis cosa de clase\\2DAM\\Procesos\\Hormigas de Langton\\build\\classes;

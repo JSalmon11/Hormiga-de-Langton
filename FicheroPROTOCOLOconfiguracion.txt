@@ -1,0 +1,10 @@
+-Filas y columnas son el tamaño del tablero
+
+-Definir orientacion como Norte(N), Sur(S), Oeste(O) y Este(E), en mayusculas
+
+-Posicion maxima de la hormiga filas-1 columnas-1
+ porque el array es de 0 a int filas y de 0 a int columnas
+
+-IMPORTANTE no borrar los = los ; ni las ,
+
+-Borrar el tablero tras cada ejecucion

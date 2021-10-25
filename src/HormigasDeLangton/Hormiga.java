@@ -20,7 +20,8 @@ public class Hormiga {
         String continuar="si";
         while ("si".equals(continuar)) {           
             continuar=Scanner.nextLine();
-            //Enviar mensaje para saber el color y continuar segun la regla de colores
+            //Enviar mensaje para saber el color de la casilla en la que esta
+            //la hormiga y continuar segun la regla de colores
             System.out.println(posHormigaFila+" "+posHormigaColumna);
             String colorCasilla=Scanner.nextLine();
             determinarOrientacion(colorCasilla);
@@ -56,7 +57,8 @@ public class Hormiga {
     }// movimientos()   
     
     private static String determinarOrientacion(String colorCasilla) {
-        //switches para determinar la orientcion dependiendo de la regla de movimientos
+        //switches para determinar la orientcion dependiendo
+        //de la regla de movimientos por colores
         String[] giro = reglaColores.split(",");
         String nuevaOrientacion = "";
         switch (colorCasilla){
@@ -85,7 +87,7 @@ public class Hormiga {
     
     private static void transformarDatos(String datos){
         //Metodo que transforma el string recibido del
-        //proceso Director en datos manejables para el metodo movimientos
+        //proceso Director en datos manejables para mover la hormiga
         String[] datosSeparados = datos.split("o");
         
         String tamanioTableroString = datosSeparados[0];
